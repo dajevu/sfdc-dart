@@ -10,7 +10,7 @@ The demo application uses a tabbed interface to list all accounts and users rela
 salesforce.com instance.
 
 For very detailed instructions on setting-up and running the project, see my blog entry 
-at XXXXXXXXXXXXXX
+at http://jeff-davis.blogspot.com/2013/04/using-forcecom-rest-apis-with-google.html
 
 PREREQUISITES
 =============
