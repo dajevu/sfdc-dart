@@ -1,0 +1,75 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="utf-8">
+    <title>Salesforce Dart Demo</title>
+    <link rel="components" href="packages/widget/components/accordion.html">
+    <link rel="components" href="packages/widget/components/collapse.html">
+    <link rel="components" href="packages/widget/components/tabs.html">
+    
+    <script type="application/dart" src="sfdcdemo.dart"></script>
+    
+    <script src="packages/browser/dart.js"></script>
+
+    <link href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.1/css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/3.0.2/css/font-awesome.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+  <h2 class="title">Salesforce Dart Demo</h2>
+  
+  <div class="container">
+    <div class="row">
+      <div class="span11">
+        <x-tabs class="tabs">
+          <li class="active">
+            <a href="#tab1" data-toggle="tab">Accounts</a>
+          </li>
+          <li>
+            <a href="#tab2" data-toggle="tab">Users</a>
+          </li>
+          
+          <div id="tab1" class="active">
+            <div class="row">
+              <div class="span12">
+                <table class="responsive" id="accounttable">
+                    
+                  <tr>
+                    <th>Id</th>
+                    <th>Name</th>
+                    <th>Type</th>
+                    <th>Description</th>
+                    <th>Industry</th>
+                  </tr>
+
+                </table>
+              </div>
+            </div>           
+          </div>
+          
+          <div id="tab2">
+            <div class="row">
+              <div class="span12">
+                <table class="responsive" id="usertable">
+                    
+                  <tr>
+                    <th>Username</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Company Name</th>
+                    <th>Id</th>
+                  </tr>
+
+                </table>
+              </div>
+            </div>           
+          </div>
+        </x-tabs>      
+      </div>
+      <div class="span1"></div>
+    </div>
+  </div>
+
+  </body>
+</html>
