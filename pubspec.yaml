@@ -1,0 +1,9 @@
+name: DartSFDCDemo
+description: A sample WebUI application
+dependencies:
+  json_object: any
+  js: any
+  browser: any
+  web_ui: any
+  widget: any
+  rikulo_commons: any
