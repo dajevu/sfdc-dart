@@ -33,7 +33,7 @@ directory.
 
 4. Start the server component by running "dart bin/server.dart" (or "dart bin\server.dart" if on Windows).
 
-5. Within the Dart IDE, 
+5. Within the Dart IDE, right click on "sfdcdemo.html" and select 'Run in Dartium".
 
 
 
