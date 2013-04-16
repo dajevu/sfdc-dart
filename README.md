@@ -22,8 +22,18 @@ developer version of force.com, so that should suffice.
 SETUP
 =====
 
-After downloading the code, run "pub install" at the root directory level to install the required 
-packages (as identified in the pubspec.yaml file).
+1. After downloading the code, run "pub install" at the root directory level to install the required 
+packages (as identified in the pubspec.yaml file). If the libraries identified in the yaml file have been
+updated since this post, you may have to upgrade to the latest version of the Dart SDK.
+
+2. When "pub install" correctly installs all of the dependencies, run "dart build.dart" from the root 
+directory.
+
+3. Update the constants.dart file to include your Salesforce credentials within the definition of LOGIN_CREDENTIALS.
+
+4. Start the server component by running "dart bin/server.dart" (or "dart bin\server.dart" if on Windows).
+
+5. Within the Dart IDE, 
 
 
 

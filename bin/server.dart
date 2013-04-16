@@ -14,7 +14,7 @@ main() {
   // script and then start the server.
   File script = new File(new Options().script);
   script.directory().then((Directory d) {
-    startServer(d.path.substring(0, d.path.lastIndexOf('bin')) + 'web/');
+    startServer(d.path.substring(0, d.path.lastIndexOf('bin')) + 'web');
   });
 }
 
